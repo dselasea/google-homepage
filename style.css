@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+ul:first-child {
+    margin-left: 15px;
+}
+
+li {
+    float: left;
+    margin-top: 10px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    color: #222;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    background-color: #4CAF50;;
+}
+
+.right {
+    float: right;
+}
+
+.sign-in {
+    background-color: #4387fd;
+    border-radius: 3px;
+    color: #fff;
+    margin-right: 30px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    text-decoration: none;
+}
+
+/* main-container */
+
+.search-input {
+    width: 600px;
+    margin: 150px auto;
+    text-align: center;
+    position: relative;
+}
+
+.google-input {
+    width: 470px;
+    margin: 30px;
+    font-size: normal;
+    padding: 13px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #dfe1e5;
+}
+
+.google-input[type=text] {
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    width: 20px;
+    top: 138px;
+    left: 80px;
+    z-index: 5;
+}
+
+.google-microphone {
+    position: absolute;
+    width: 14px;
+    top: 140px;
+    left: 495px;
+    z-index: 6;
+}
+
+.search-icon,
+input[type=button],
+.google-microphone,
+.sign-in {
+    cursor: pointer;
+}
+
+
+.google-input:hover {
+    box-shadow: 2px 2px 2px 1px #dfe1e5 , -1px -1px 2px #dfe1e5;
+    border: 1px solid #dfe1e5;
+    opacity: 0.7;
+}
+
+input[type=button]{
+    padding: 8px 18px;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    color: #5F6368;
+    font-size: 14px;
+}
+
+input[type=button]:hover{
+    border: 1px solid #c6c6c6;
+    color: #222;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* end of main-container */
+
+.stay-home a,
+.lang-links a {
+    text-decoration: none;
+    font-size: small;
+    color: #1a0dab;
+}
+
+.stay-home a:hover {
+    text-decoration: underline;
+}
+
+.stay-home {
+    margin-top: 40px;
+}
+
+.lang-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.lang-links a:hover {
+    text-decoration: underline;
+}
+
+.lang-links p {
+    margin: 2px;
+    font-size: small;
+}

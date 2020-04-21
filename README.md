@@ -1,0 +1,1 @@
+This is one of of the beginners project on the odin project website. Its is part of the projects for the full stack web development course.
